@@ -1,11 +1,14 @@
 # Building the Heaader
 ## See documentation for:
-### Position: absolute, relative, etc. and relation with Flexbox
-### display: block, inline
-### transform: translate
-### clip-path: polygon
-### google fonts
-### letter-spacing
+    * Position: 
+        * absolute, 
+        * relative, 
+        * etc. and relation with Flexbox
+    * transform: translate
+    * clip-path: polygon
+    * google fonts
+    * letter-spacing
+    * view port for example "height: 95vh;"
 
 # Creating Cool CSS Animations
 
