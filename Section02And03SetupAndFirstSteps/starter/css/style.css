@@ -6,14 +6,16 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -23,6 +25,8 @@ body {
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+
+    box-sizing: border-box;
 }
 
 .header {
@@ -153,6 +157,7 @@ body {
     border-radius: 10rem;
     transition: all .2s; /* all properties can be animated */
     position: relative;
+    font-size: 1.6rem;
 }
 
 .btn:hover {
@@ -162,7 +167,7 @@ body {
 
 .btn:active {
     transform: transLateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.2);
 }
 
 .btn-white {
