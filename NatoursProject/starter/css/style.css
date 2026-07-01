@@ -59,7 +59,6 @@ body {
   backface-visibility: hidden;
   margin-bottom: 6rem;
 }
-
 .heading-primary--main {
   display: block;
   font-size: 6rem;
@@ -69,7 +68,6 @@ body {
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
-
 .heading-primary--sub {
   display: block;
   font-size: 2rem;

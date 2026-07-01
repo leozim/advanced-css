@@ -80,38 +80,39 @@ body {
 
     backface-visibility: hidden;
     margin-bottom: 6rem;
+
+    &--main{
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+
+    }
+
+    &--sub{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+
+
+        /* 
+
+        animation-iteration-count: 3;
+        animation-delay: 0.5s; 
+
+        */
+    }
 }
 
-.heading-primary--main{
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-
-}
-
-.heading-primary--sub{
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-
-    animation-name: moveInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-
-
-    /* 
-
-    animation-iteration-count: 3;
-    animation-delay: 0.5s; 
-
-    */
-}
 
 @keyframes moveInLeft {
     0% {
