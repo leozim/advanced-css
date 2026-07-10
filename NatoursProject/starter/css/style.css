@@ -166,5 +166,8 @@ body {
   background-color: #eee;
   margin: 0 auto;
 }
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
 
 /*# sourceMappingURL=style.css.map */
