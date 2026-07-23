@@ -241,6 +241,7 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
 }
 .feature-box__icon {
   font-size: 6rem;
@@ -250,6 +251,10 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
+.feature-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
 .header {
   height: 95vh; /* 95% of the viewport height */
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.799), rgba(85, 197, 122, 0.79), rgba(45, 45, 45, 0.799)), url("../img/hero.jpg");
